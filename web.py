@@ -13,6 +13,7 @@ browser.save_screenshot(r'C:\Users\leul\Pictures\selenium-screenshots\image.png'
 options = webdriver.ChromeOptions()
 options.add_experimental_option('androidPackage', 'com.android.chrome')
 
+#opens phone chrome
 browser = webdriver.Chrome('C:\driver\chromedriverphone.exe', chrome_options=options) #opens phone chrome
 browser.get('http://seleniumhq.org/')
 browser.quit()
